@@ -17,6 +17,7 @@ const Footer = () => {
       <div className="footer-bottom-container">
         <div className="footer">
           &copy; 2024 Rani Creations, All Right Reserved
+          <p></p>
         </div>
       </div>
     </>

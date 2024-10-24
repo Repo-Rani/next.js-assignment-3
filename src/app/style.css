@@ -277,10 +277,9 @@ body {
     position: relative;
 }
 
-@media (max-width: 1300px) {
-    .container{
-        padding: 0 1.5rem;
-    }
+
+.projects-box {
+  padding: 0 1.5rem;
 }
 
 .hero-container {
@@ -1025,18 +1024,22 @@ background: transparent;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 2rem;
-  width: 100%;
+  /* margin-bottom: 2rem; */
+  /* width: 100%; */
+  min-width: 100%;
 }
 .footer-icon {
   font-size: 1.7rem; 
   transition: transform 0.3s ease;
+  margin-bottom: 2rem;
 }
 .footer-icon:hover {
   color: #ff512f;
   cursor: pointer;
   transform: scale(1.25);
- 
+}
+.footer {
+  width: 100%;
 }
 
 @media (max-width: 768px){
