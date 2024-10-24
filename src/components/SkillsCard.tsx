@@ -1,17 +1,24 @@
-import React from 'react'
-import { SkillsCardPropsTypes } from '../../Types/types';
+import React from "react";
+import { SkillsCardPropsTypes } from "../../Types/types";
 
-const SkillsCard = ({title, iconUrl, isActive, onClick} : SkillsCardPropsTypes) => {
-    return(
-<div className={`skills-card ${isActive ? "active" : " "} `} onClick= {() => onClick()}>
- <div className='skill-icon'>
-    <img src={iconUrl} alt={title} />
- </div>
+const SkillsCard = ({
+  title,
+  iconUrl,
+  isActive,
+  onClick,
+}: SkillsCardPropsTypes) => {
+  return (
+    <div
+      className={`skills-card ${isActive ? "active" : " "} `}
+      onClick={() => onClick()}
+    >
+      <div className="skill-icon">
+        <img src={iconUrl} alt={title} />
+      </div>
 
- <span>{title}</span>
-</div>
-    )
-}
+      <span>{title}</span>
+    </div>
+  );
+};
 
 export default SkillsCard;
-  

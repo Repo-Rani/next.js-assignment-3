@@ -1,14 +1,14 @@
-import React from 'react'
-import { toggleButtonType } from '../../Types/types'
-import Link from 'next/link'
-function ToggleButton({isOpen, toggleMenu}: toggleButtonType ) {
+import React from "react";
+import { toggleButtonType } from "../../Types/types";
+import Link from "next/link";
+function ToggleButton({ isOpen, toggleMenu }: toggleButtonType) {
   return (
     <>
-    <div className={`mobile-nav-menu ${isOpen ? "active" : ""}`}
-    onClick={toggleMenu}>
-        
-<div className='mobile-nav-Container'>
-         
+      <div
+        className={`mobile-nav-menu ${isOpen ? "active" : ""}`}
+        onClick={toggleMenu}
+      >
+        <div className="mobile-nav-Container">
           <ul>
             <li>
               <Link href="#home" className="nav-menu-item">
@@ -41,13 +41,11 @@ function ToggleButton({isOpen, toggleMenu}: toggleButtonType ) {
               </Link>
             </li>
             <button className="resume-btn">Download Resume</button>
-        </ul> 
+          </ul>
         </div>
-        </div>
-        
-    
+      </div>
     </>
-  )
+  );
 }
 
 export default ToggleButton;

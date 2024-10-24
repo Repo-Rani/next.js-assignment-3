@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import ExperienceCard from "./ExperienceCrad";
 import { EXPERIENCE } from "@/data/data";
-import Slider from "react-slick"
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "boxicons/css/boxicons.min.css";

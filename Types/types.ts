@@ -1,44 +1,41 @@
-
-
-export interface toggleButtonType{
-    isOpen:boolean;
-    toggleMenu : () =>void
+export interface toggleButtonType {
+  isOpen: boolean;
+  toggleMenu: () => void;
 }
 
 export interface SkillsItemsTypes {
-    Skills:string;
-    percentage: string;
-
+  Skills: string;
+  percentage: string;
 }
 
 export interface SkillsTypes {
-    title : string;
-    icon : string;
-    skills : SkillsItemsTypes[];
+  title: string;
+  icon: string;
+  skills: SkillsItemsTypes[];
 }
 
 export interface SkillsCardPropsTypes {
-    iconUrl: string;
-    title: string;
-    isActive: boolean;
-    onClick: () => void;
+  iconUrl: string;
+  title: string;
+  isActive: boolean;
+  onClick: () => void;
 }
 
 export interface SkillInfoCardTypes {
-    heading: string;
-    skills: SkillsItemsTypes[]
+  heading: string;
+  skills: SkillsItemsTypes[];
 }
 
-export interface ExperienceType{
-    title: string;
-    date: string;
-    responsibilities : string[];
+export interface ExperienceType {
+  title: string;
+  date: string;
+  responsibilities: string[];
 }
 export interface DetailedPropsType {
-    detail: ExperienceType;
+  detail: ExperienceType;
 }
 
 export interface ContactInfoTypes {
-    iconUrl: string;
-    text: string;
-  }
+  iconUrl: string;
+  text: string;
+}

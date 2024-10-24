@@ -1,7 +1,7 @@
 import React from "react";
 import { SkillsTypes } from "../../Types/types";
 
-export const SKILLS:SkillsTypes[] = [
+export const SKILLS: SkillsTypes[] = [
   {
     title: "Fronted",
     icon: "/fronted.png",
@@ -41,42 +41,42 @@ export const SKILLS:SkillsTypes[] = [
   },
 ];
 
-
 export const EXPERIENCE = [
   {
     title: "Frontend Developer at Governer House",
     date: "October 2024 - present",
     responsibilities: [
-      "Spearheaded the development of responsive, user-centric websites using HTML, CSS, and JavaScript during coding boot camps and personal projects.",
-"Engineered essential front-end components, such as navigation systems, image galleries, and interactive forms, to elevate user experience.",
-"Gained hands-on experience with modern frameworks like React for building dynamic, performance-driven web applications.",
-"Utilized Git and GitHub for efficient version control and collaborative project management in team environments.",
-"Enhanced problem-solving capabilities through personal projects, coding challenges, and staying informed on the latest web development innovations.",
-"Leveraged modern front-end technologies to craft pixel-perfect, responsive web interfaces, ensuring a seamless and engaging user experience across all devices.",
+      "Developed responsive, user-focused websites using HTML, CSS, and JavaScript in boot camps and personal projects.",
+      "Built key front-end features like navigation, image galleries, and interactive forms to enhance UX.",
+      "Worked with React to create dynamic, high-performance web apps.",
+      "Managed version control and collaboration with Git and GitHub in team projects.",
+      "Improved problem-solving through personal projects, coding challenges, and staying updated on web trends.",
+      "Crafted pixel-perfect, responsive interfaces for seamless experiences across devices.",
     ],
   },
+
   {
     title: " Web Developer at Digital Solution",
     date: "January 2024 - Past",
     responsibilities: [
-      "Designed and maintained responsive, high-performance websites using HTML, CSS, and JavaScript, ensuring user-friendly interfaces aligned with client requirements.",
-"Collaborated with senior developers to debug and optimize code, achieving cross-browser and cross-device compatibility.",
-"Implemented modern front-end frameworks like Bootstrap to craft mobile-responsive designs and enhance overall site functionality.",
-"Leveraged Git for version control, managing code contributions effectively in team-based projects for streamlined development processes.",
-"Actively participated in code reviews and technical discussions, focusing on improving code quality and adhering to industry best practices.",
-"Strengthened problem-solving skills by building and refining personal web projects, continuously improving technical proficiency.",
+      "Designed and maintained responsive websites using HTML, CSS, and JavaScript, ensuring user-friendly interfaces.",
+      "Worked with senior developers to debug and optimize code for cross-browser and device compatibility.",
+      "Used Bootstrap for mobile-responsive designs and enhanced functionality.",
+      "Managed code contributions with Git in team projects for efficient development.",
+      "Participated in code reviews, focusing on improving code quality and following best practices.",
+      "Enhanced problem-solving by building personal projects and refining technical skills.",
     ],
   },
   {
     title: " Git, GitHub, VS Code , Figma, UI/UX,",
     date: "October 2024 - present",
     responsibilities: [
-      "Utilized Figma to create intuitive UI prototypes, delivering visually compelling and user-friendly designs for seamless user experiences.",
-"Contributed to the development and implementation of UI/UX designs, significantly enhancing the usability and accessibility of web applications.",
-"Collaborated with the development team via Git and GitHub for version control, efficiently managing code updates and resolving merge conflicts.",
-"Developed clean, efficient code in Visual Studio Code (VS Code), implementing front-end features that align with project specifications.",
-"Engaged actively in team meetings, offering valuable insights and driving discussions on design strategies, development processes, and workflow improvements.",
-"Played a key role in team discussions, presenting innovative ideas and solutions to enhance design and development workflows.",
+      "Created intuitive UI prototypes in Figma for visually compelling, user-friendly designs.",
+      "Contributed to UI/UX design implementation, improving web application usability and accessibility.",
+      "Collaborated with the development team on Git and GitHub for efficient code management and conflict resolution.",
+      "Developed clean code in VS Code, implementing front-end features per project specs.",
+      "Actively participated in team meetings, providing insights on design strategies and workflow improvements.",
+      "Presented innovative ideas in discussions to enhance design and development processes.",
     ],
   },
 ];

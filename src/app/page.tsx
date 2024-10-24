@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
     <Navbar />
-    <div className='container'>Hero
+    <div className='container'>
     <Hero />
     <Skills />
     <Experience />
