@@ -1,4 +1,3 @@
-import React from "react";
 import "boxicons/css/boxicons.min.css";
 import Link from "next/link";
 const Footer = () => {

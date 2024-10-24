@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { ContactInfoTypes } from "../../Types/types";
-
 const ContactInfoCard = ({ iconUrl, text }: ContactInfoTypes) => {
   return (
     <>

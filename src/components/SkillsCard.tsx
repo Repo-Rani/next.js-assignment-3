@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillsCardPropsTypes } from "../../Types/types";
-
 const SkillsCard = ({
   title,
   iconUrl,

@@ -1,6 +1,4 @@
-import React from "react";
 import { SkillsTypes } from "../../Types/types";
-
 export const SKILLS: SkillsTypes[] = [
   {
     title: "Fronted",

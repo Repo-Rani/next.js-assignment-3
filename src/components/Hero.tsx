@@ -1,5 +1,4 @@
 import React from "react";
-
 function Hero() {
   return (
     <section className="hero-container">
@@ -9,7 +8,7 @@ function Hero() {
           With a passion for clean, modern design and a focus on responsive,
           user-friendly experiences, I specialize in transforming ideas into
           visually compelling, functional websites. Lets build something
-          remarkable together
+          remarkable together.
         </p>
       </div>
       <div className="hero-img">

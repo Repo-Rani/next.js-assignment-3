@@ -9,7 +9,6 @@ import "boxicons/css/boxicons.min.css";
 import { ExperienceType } from "../../Types/types";
 const Experience = () => {
   const sliderRef = useRef<Slider | null>(null);
-
   const settings = {
     dots: false,
     infinite: true,
