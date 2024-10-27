@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 function Hero() {
   return (
     <section className="hero-container">
@@ -14,19 +15,19 @@ function Hero() {
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="/typescript.jpg" alt="typescript image" />
+            <Image src="/typescript.jpg" alt="typescript image" height={120} width={120}/>
           </div>
-          <img src="/img.png" alt="image" />
+          <Image src="/img.png" alt="profile"  height={400} width={400}/>
         </div>
         <div>
           <div className="tech-icon">
-            <img src="/html.png" alt="html image" />
+            <Image src="/html.png" alt="html-image" height={120} width={120} />
           </div>
           <div className="tech-icon">
-            <img src="/css.png" alt="css image" />
+            <Image src="/css.png" alt="css image" height={120} width={120}/>
           </div>
           <div className="tech-icon">
-            <img src="javascript.png" alt="javascript image" />
+            <Image src="/javascript.png" alt="javascript image" height={120} width={120}/>
           </div>
         </div>
       </div>

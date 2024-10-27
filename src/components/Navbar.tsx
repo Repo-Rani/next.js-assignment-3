@@ -25,6 +25,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
+
             <li>
               <Link href="#skills" className="menu-item">
                 Skills

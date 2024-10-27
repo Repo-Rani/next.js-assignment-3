@@ -12,7 +12,7 @@ export const SKILLS: SkillsTypes[] = [
   },
   {
     title: "Backend",
-    icon: "backend.png",
+    icon: "/backend.png",
     skills: [
       { Skills: "Next.js", percentage: "75%" },
       { Skills: "Node.js", percentage: "60%" },

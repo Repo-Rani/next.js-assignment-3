@@ -39,3 +39,11 @@ export interface ContactInfoTypes {
   iconUrl: string;
   text: string;
 }
+
+
+// types.ts
+export interface EducationItem {
+  title: string;
+  institute: string;
+  duration?: string; 
+}
